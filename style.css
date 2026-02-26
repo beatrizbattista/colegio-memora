@@ -110,7 +110,7 @@
 }
 
 /* FOOTER */
-#footer {
+.footer {
     background-color: #efefef;
     height: 1000px;
     width: 100%;
@@ -134,10 +134,15 @@
     
 }
 
-/*#coluna2{
+#colunas{
+    margin-top: 120px;
+    gap: 100px;
+    background-color: #efefef;
 
 }
 
+
+/*
 #coluna3{
 
 } */
@@ -250,11 +255,6 @@ p {
     margin-top: -20px;
 }
 
-/* TEXTOS FOOTER */
-/*.textof{
-    ;
-}
-*/
 
 /* TEXTOS NAVBAR */
 #inicio {
@@ -304,7 +304,7 @@ p {
 .texto_f{
     color: #46007E;
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
 }
 
