@@ -112,33 +112,44 @@
 /* FOOTER */
 .footer {
     background-color: #efefef;
-    height: 1000px;
+    height: 500px;
     width: 100%;
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-top: 100px;
 }
 
 #logof {
-    width: 150px;
-    height: 50px;
+    width: 170px;
+    height: 55px;
     margin-top: 100px;
 }
 
 #coluna1{
     text-align: left;
-    margin-left: 80px;
+    margin-left: 20px;
     background-color: #efefef;
     
 }
 
 #colunas{
-    margin-top: 120px;
-    gap: 100px;
+    margin-top: 150px;
+    font-size: larger;
     background-color: #efefef;
 
+}
+
+#email{
+    display: flex;
+    justify-content: space-around;
+    width: 380px;
+}
+
+#loc{
+    display: flex;
+    justify-content: space-around;
+    width: 235px;
 }
 
 
@@ -304,8 +315,12 @@ p {
 .texto_f{
     color: #46007E;
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
+}
+
+.texto_f2{
+    font-weight: 600;
 }
 
 
